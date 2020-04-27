@@ -26,6 +26,7 @@ header {
 h1 {
   font-size: 2rem;
   margin: 0px;
+
 }
 
 h2 {
@@ -51,10 +52,10 @@ h4 {
   color: #ffffff;
   background-color: #db1313;
   box-shadow: 10px 10px 5px #db1313;
-  transform: rotate(-22deg);
+  transform: rotate(-45deg);
   position: absolute;
   padding: 0px 150px;
-  top: 10px;
+  top: 50px;
   left: -120px;
   text-align:center;
   font-size:0.6rem;
@@ -112,7 +113,7 @@ nav a:link, nav a:visited {
   padding: 5px;
   text-decoration: none;
   font-weight: bold;
-  margin: 3px;
+  margin: 5px;
   color: #ffffff;
 }
 
@@ -126,9 +127,9 @@ section {
   display:block;
   width:100%;
   background-color: #ffffff;
-  margin:15px;
-  padding: 0px;
-  box-shadow: 2px 2px 20px #003153;
+  margin:0px;
+  padding: 10px;
+  box-shadow: 2px 2px 20px #0b6b45;
 }
 
 section h2 {
@@ -139,7 +140,6 @@ section h2 {
 
 section p {
   font-size: 0.9rem;
-  margin: 5px;
 }
 
 aside {
@@ -159,7 +159,7 @@ aside p {
   font-weight: bold;
   font-size: 0.8rem;
   font-style: regular;
-  border-bottom: 1px solid #db1313;
+
 }
 
 #container {
@@ -185,7 +185,7 @@ img {
   height: auto;
 }
 
-video {
+iframe {
   max-width: 100%;
   height: auto;
 }
